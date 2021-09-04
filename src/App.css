@@ -4,13 +4,3 @@
     font-family: 'Lato', sans-serif;
 }
 
-.App {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-Button {
-    display: none;
-}
