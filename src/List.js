@@ -17,7 +17,7 @@ export default function TodoListItem({ todo, isComplete, id }) {
     return (
         <div style={{ display: "flex" }}>
             <ListItem>
-                <ListItemText primary={todo} secondary={isComplete ? "Not Complete ❌❌" : "Complete ✔✔"} />
+                <ListItemText primary={todo} secondary={isComplete ? "Not Complete ❌❌" : "Complete ✅✅"} />
             </ListItem>
 
             <Button onClick={toggleIsComplete}>{isComplete ? "Done" : "Undo"}</Button>

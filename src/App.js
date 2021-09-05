@@ -32,7 +32,6 @@ function App() {
 
     db.collection("todos").add({
       isComplete: true,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       todo: todoInput,
     });
 
