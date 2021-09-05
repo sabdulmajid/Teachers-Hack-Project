@@ -1,6 +1,8 @@
+import "./List.css";
 import React from 'react'
 import { Button, ListItem, ListItemText } from '@material-ui/core'
 import { db } from './firebase_config'
+import "."
 
 export default function TodoListItem({ todo, isComplete, id }) {
 
@@ -16,12 +18,12 @@ export default function TodoListItem({ todo, isComplete, id }) {
 
     return (
         <div style={{ display: "flex" }}>
-            <ListItem>
+            <ListItem className="tile">
                 <ListItemText primary={todo} secondary={isComplete ? "Not Complete ❌❌" : "Complete ✅✅"} />
             </ListItem>
 
-            <Button onClick={toggleIsComplete}>{isComplete ? "Done" : "Undo"}</Button>
-            <Button onClick={deleteTodo}>X</Button>
+            <Button className="button" onClick={toggleIsComplete}>{isComplete ? "Done" : "Undo"}</Button>
+            <Button className="button" onClick={deleteTodo}>X</Button>
         </div>
     )
 }

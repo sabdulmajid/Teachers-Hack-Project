@@ -1,0 +1,12 @@
+body {
+    /* background-color: rgb(238, 216, 178); */
+    background-color: rgb(194, 151, 81);
+}
+div {
+    /* color: brown; */
+}
+.tile {
+    border-radius: 15px;
+    background-color: rgb(223, 168, 96);
+    color:rgba(255, 255, 255, 0.733);
+}
