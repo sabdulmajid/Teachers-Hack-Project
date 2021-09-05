@@ -1,0 +1,10 @@
+### Inspiration
+A To-Do list is one thing that all successful people use to manage their time and tasks; ordering them based on priority. So we thought "Why not make one to help out all the teachers out there?". And so we proceeded to make this challenging project, using ReactJS & MaterialUI (for the components) to make the front-end of the website, and used Firebase as the database & host for our website.  
+### What it does
+This Firebase-hosted website stores the task that is added and keeps it on the database, so whenever someone accesses the website, the task stays there. The main goal of this is to make sure that the task added **_stays_** there, so that no productivity is sacrificed, and no time is wasted in remaking the list.
+### Challenges we ran into
+There were quite a few challenges we ran into, and being able to overcome them were huge achievements for us. One of the main challenges was that we started following the old docs for Firebase and wrote code for the 8.10.0v rather than the new 9.0.1v, and since the syntax and structure of the new Firebase was completely changed in the new version, we had to adapt to that. It took multiple hours to fix all the compile errors produced by that, and it was the biggest obstacle we faced. All-in-all, we learned a lot about Firebase and its syntax from that small rookie mistake, and so it did work out well for us in the end. Time was another challenge, as only 48 hours were given to complete this project.
+### What we learned
+A lot about MaterialUI and how to use ReactJS to make user interfaces. We also learned a lot about Firebase and how to use databases, hence strengthening our knowledge in back-end and front-end programming.
+### What's next for Teacher ToDo List
+Our next goal is to make a user-login system so that individuals can log in and view their own personal To-Do list, rather than viewing a common list. Another goal is to make this website mobile-friendly, so that users can access their lists from their portable devices. We will also look to bringing in more features, such as a feature to rearrange the tasks, prioritize the tasks, and also being able to edit the task.
